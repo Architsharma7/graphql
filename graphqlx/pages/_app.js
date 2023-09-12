@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 function MyApp({ Component, pageProps }) {
