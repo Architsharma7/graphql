@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
     // can be both "localhost:4000/" or "localhost:4000/graphql"
-    uri: "http://localhost:4000/graphql",
+    uri: "http://localhost:4000/",
   });
 
   return (
